@@ -14,7 +14,15 @@
 #### 상태정의
 - 상태를 정의할때 constructor() 사용
 - 클래스의 상태는 늘 객체
+- 상태변경시 this.state 사용 
+- super() 상위클래스 생성자 호출 
 
+#### 라이프 사이클 메서드
+- componentDidMount() = useEffect(.. ,[]) 의존성 배열 X
+- componentDidUpdate() = useEffect(.. ,[]) 의존성 배열 O
+- componentWillMount()= useEffect에 있는 cleanup 함수와 같음 
+- effect함수가 다시 실행되기 직전에 호출되면 항상 컴포넌트가 DOM에서 삭제되기전에 호출
+ 
 ---
 
 
