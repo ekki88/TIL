@@ -1,4 +1,4 @@
-#### redux-middleware
+### redux-middleware
 리덕스가 지니고 있는 핵심기능 (context API, MobX와 차별된)<br/>
 
 #### 액션-> 미들웨어 -> 리듀서-> 스토어
