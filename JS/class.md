@@ -28,7 +28,7 @@ class Car {
     this.wheels = 4;
   }
   drive() {
-    console.log("deive..");
+    console.log("drive..");
   }
   stop() {
     console.log("stop!");
@@ -36,7 +36,7 @@ class Car {
 }
 
 class Bmw extends Car {
-  prak() {
+  park() {
     console.log("PARK");
    }
 }
@@ -55,7 +55,7 @@ class Car {
     this.wheels = 4;
   }
   drive() {
-    console.log("deive..");
+    console.log("drive..");
   }
   stop() {
     console.log("stop!");
@@ -63,7 +63,7 @@ class Car {
 }
 
 class Bmw extends Car {
-  prak() {
+  park() {
     console.log("PARK");
    }
   stop() {
@@ -87,7 +87,7 @@ class Car {
       this.wheels = 4;
     }
     drive() {
-      console.log("deive..");
+      console.log("drive..");
     }
     stop() {
       console.log("stop!");
@@ -99,7 +99,7 @@ class Car {
       // super(color);
       this.navigation = 1;
     }
-    prak() {
+    park() {
       console.log("PARK");
      }
   }
