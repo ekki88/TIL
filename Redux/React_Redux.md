@@ -35,6 +35,8 @@ store로부터 데이터를 가져와 컴포넌트의 props에 넣음<br/>
 #### ✅ mapDispatchToProps
 ```javascript
 function mapDispatchToProps (dispatch, ownProps) {
+  return {
+  }
 }
 
 //첫번째 인자 사용안하면 null
