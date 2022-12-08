@@ -36,6 +36,9 @@ store로부터 데이터를 가져와 컴포넌트의 props에 넣음<br/>
 ```javascript
 function mapDispatchToProps (dispatch, ownProps) {
 }
+
+//첫번째 인자 사용안하면 null
+connect (null, mapDispatchToProps)(store와 연결시킬 컴포넌트);
 ```
 컴포넌트 내에서 dispatch 사용 할 수 있게 해줌 <br/>
 첫번째 인자 dispatch: redux의 store.dispatch()와 같음 <br/>
