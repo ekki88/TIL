@@ -15,7 +15,7 @@ function Todo() {
   return(
     <div>
       <form onSubmit={handleSubmit(onValid)}>
-        <input {...register("todo"), {required:true, minLength:10} } placeholder="hey"/>
+        <input {...register("todo", {required:true, minLength:10})} placeholder="hey"/>
       </form>
     </div>
   )
